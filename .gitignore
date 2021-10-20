@@ -5,7 +5,6 @@ temp
 build
 memory
 package-lock.json
-package.json
 
 # Created by https://www.gitignore.io/api/vim,osx,node,linux,windows
 ### Linux ###

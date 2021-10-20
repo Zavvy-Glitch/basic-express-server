@@ -1,12 +1,11 @@
 'use strict';
 
-const server = require('../src/server.js');
+const server = require('../app.js');
 const supertest = require('supertest');
-const { describe } = require('yargs');
 
 const request = supertest(server.server);
 
-describe('Testing Persons Server', () => {
+describe('Testing our Persons Server', () => {
   it('Should respond with a new Person on GET to /person', async () => {
 
     const response = await request.get('/person');

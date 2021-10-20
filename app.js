@@ -22,8 +22,8 @@ function handlePerson(request, response) {
   response.status(200).send(name);
 }
 
-app.use(error500);
 app.use(error404);
+app.use(error500);
 
 module.exports = {
   app,

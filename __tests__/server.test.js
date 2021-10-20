@@ -1,16 +1,16 @@
 'use strict';
 
-const server = require('../app.js');
+const server = require('../src/server.js');
 const supertest = require('supertest');
 
-const request = supertest(server.server);
+const request = supertest(server.app);
 
 describe('Testing our Persons Server', () => {
-  it('Should respond with a new Person on GET to /person', async () => {
-
-    const response = await request.get('/person');
+  it('Should respond with a new Person on GET /person', async () => {
+    const name = {name:'test' };
+    const response = await request.get('/person').query(name);
 
     expect(response.status).toBe(200);
-    expect(response.text).toBe('Fred');
+    expect(typeof response.body).toEqual('object');
   });
 });

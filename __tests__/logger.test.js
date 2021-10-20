@@ -6,7 +6,7 @@ describe('Testing the logger middleware', () => {
   
   let req = {method: 'GET', query:{}};
   let res = {};
-  let next = jest.fin();
+  let next = jest.fn();
   console.log = jest.fn();
 
   it('should be able to log a method', () => {

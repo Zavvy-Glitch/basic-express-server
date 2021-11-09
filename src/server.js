@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 const logger = require('./middleware/logger.js');
-const validator = require('./middleware/validator.js');
+// const validator = require('./middleware/validator.js');
 const error404 = require('./error-handlers/404.js');
 const error500 = require('./error-handlers/500.js');
 
@@ -17,7 +17,7 @@ app.use(logger);
 // Routes
 
 // retrieves all persons
-app.get('/person', validator,  handlePerson);
+app.get('/person', handlePerson);
 
 // retrieves ONE person
 app.get('/person/:id', () => {

@@ -27,5 +27,8 @@
     "sequelize": "^6.7.0",
     "sqlite3": "^5.0.2",
     "supertest": "^6.1.6"
-  }
+  },
+  "engines": {
+    "node": ">=12"
+}
 }

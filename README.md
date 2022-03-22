@@ -16,7 +16,6 @@
 ## Usage
 - To run testing with jest use the command `npm test` in your CLI
 - If you plan to update the code base with more tests and wish to have continual updates run `npm test watchAll`
-- 
 
 ## Features / Routes
 

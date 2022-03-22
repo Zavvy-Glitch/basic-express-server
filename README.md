@@ -4,7 +4,7 @@
 
 - Dynamic API Phase 1: Build core, standards compliant Express server.
 - Server Deployed to: [Heroku - Basic Express Server](https://chattray-basic-express-server.herokuapp.com/)
-- [Pull Requests](https://github.com/Zavvy-Glitch/basic-express-server/pulls?q=is%3Apr+sort%3Aupdated-desc+is%3Aclosed)
+- [Pull Requests](https://github.com/Zavvy-Glitch/basic-express-server/pull/8)
 
 ## Installation:
 - For this application to run locally, please install the following dependencies:
@@ -16,7 +16,6 @@
 ## Usage
 - To run testing with jest use the command `npm test` in your CLI
 - If you plan to update the code base with more tests and wish to have continual updates run `npm test watchAll`
-- 
 
 ## Features / Routes
 

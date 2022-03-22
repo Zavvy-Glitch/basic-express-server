@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = (error, request, response, next) => {
-  response.status(404).send('Bad Route');
-  response.end();
+module.exports = (error, req, res, next) => {
+  res.status(404).send('Bad Route Not Found');
+  res.end();
 };

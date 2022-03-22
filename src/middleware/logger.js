@@ -1,8 +1,8 @@
 'use strict';
 
-module.exports = function (request, response, next) {
+module.exports = function (req, res, next) {
   
-  let method = request.method;
+  let method = req.method;
   if (method === 'GET') {
     next();
   } else {

@@ -3,7 +3,7 @@
 const server = require('../src/server.js');
 const supertest = require('supertest');
 
-const request = supertest(server.app);
+const request = supertest(server);
 
 describe('Testing our Persons Server', () => {
   it('Should respond with a new Person on GET /person', async () => {

@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = (request, response, next) => {
-  if (request.query.name) {
+module.exports = (req, res, next) => {
+  if (req.query.name) {
     next();
   } else {
     next('No Name Provided');

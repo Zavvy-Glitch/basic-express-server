@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = (error, request, response, next) => {
+module.exports = (error, req, res, next) => {
   console.log(error);
-  response.status(500);
-  response.end();
+  res.status(500).send('Server Error');
+  res.end();
 };

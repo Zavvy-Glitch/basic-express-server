@@ -2,16 +2,28 @@
 
 ## LAB: Express
 
-- Dynamic API Phase 1: Build your core, standards compliant Express server.
+- Dynamic API Phase 1: Build core, standards compliant Express server.
 - Server Deployed to: [Heroku - Basic Express Server](https://chattray-basic-express-server.herokuapp.com/)
-- [PR's](https://github.com/Zavvy-Glitch/basic-express-server/pulls?q=is%3Apr+sort%3Aupdated-desc+is%3Aclosed)
+- [Pull Requests](https://github.com/Zavvy-Glitch/basic-express-server/pulls?q=is%3Apr+sort%3Aupdated-desc+is%3Aclosed)
 
-### Person Route
+## Installation:
+- For this application to run locally, please install the following dependencies:
+    - jest
+    - supertest
+    - express
+    - optional: nodemon (however, if you do not choose to use nodemon you will need to change the script in the package.json file to match where you plan to run the server from)
+
+## Usage
+- To run testing with jest use the command `npm test` in your CLI
+- If you plan to update the code base with more tests and wish to have continual updates run `npm test watchAll`
+- 
+
+## Features / Routes
 
 - Method used: GET
 - Path: /person
 
-### Testing Requirements
+## Testing Requirements
 
 - 404 on a bad route
 - 404 on a bad method
@@ -19,6 +31,6 @@
 - 200 if the name is in the query string
 - given an name in the query string, the output object is correct
 
-### Phase 1 Requirements
+## Contributors / Authors
 
-From a business requirements standpoint, we will be building a basic Express server using best practices, including server modularization, use of middleware, and tests.
+- Chattray Chea

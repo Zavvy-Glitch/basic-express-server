@@ -4,7 +4,7 @@
 
 - Dynamic API Phase 1: Build core, standards compliant Express server.
 - Server Deployed to: [Heroku - Basic Express Server](https://chattray-basic-express-server.herokuapp.com/)
-- [Pull Requests](https://github.com/Zavvy-Glitch/basic-express-server/pulls?q=is%3Apr+sort%3Aupdated-desc+is%3Aclosed)
+- [Pull Requests](https://github.com/Zavvy-Glitch/basic-express-server/pull/8)
 
 ## Installation:
 - For this application to run locally, please install the following dependencies:
